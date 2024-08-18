@@ -3,7 +3,7 @@ name = "rusty_algo"
 
 [package]
 name = "rusty_algo"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Lucas Vieira dos Santos <lucas6eng@gmail.com>"]
 description = "Implementations of algorithms from 'Introduction to Algorithms' by Cormen et al."
