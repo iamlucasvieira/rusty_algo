@@ -2,6 +2,8 @@
 
 ![Build Status](https://github.com/iamlucasvieira/rusty_algo/actions/workflows/rust.yml/badge.svg)
 ![GitHub License](https://img.shields.io/github/license/iamlucasvieira/rusty_algo?link=https%3A%2F%2Fgithub.com%2Fiamlucasvieira%2Frusty_algo%2Fblob%2Fmain%2FLICENSE)
+![docs.rs](https://img.shields.io/docsrs/rusty_algo?link=docs.rs%2Frusty_algo&link=docs.rs%2Frusty_algo)
+![Crates.io Total Downloads](https://img.shields.io/crates/d/rusty_algo?link=https%3A%2F%2Fcrates.io%2Fcrates%2Frusty_algo&link=https%3A%2F%2Fcrates.io%2Fcrates%2Frusty_algo)
 
 A Rust library implementing algorithms from the classic "Introduction to Algorithms" book.
 
