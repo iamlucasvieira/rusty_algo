@@ -11,7 +11,7 @@ license-file = "LICENSE"
 readme = "README.md"
 repository = "https://github.com/iamlucasvieira/rusty_algo"
 keywords = ["algorithms", "data-structures", "rust"]
-categories = ["algorithms", "data-structures", "rust"]
+categories = ["algorithms", "data-structures"]
 
 
 [dependencies]
