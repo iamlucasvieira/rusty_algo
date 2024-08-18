@@ -13,7 +13,7 @@ mod tests {
     #[test]
     fn test_sort() {
         let mut arr = vec![3, 2, 1];
-        arr.sort(&InsertionSort);
+        arr.sort_with(&InsertionSort);
         assert_eq!(arr, vec![1, 2, 3]);
     }
 }
