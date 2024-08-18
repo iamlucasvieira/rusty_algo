@@ -13,5 +13,11 @@ repository = "https://github.com/iamlucasvieira/rusty_algo"
 keywords = ["algorithms", "data-structures", "rust"]
 categories = ["algorithms", "data-structures"]
 
+[[bench]]
+harness = false
+name = "bench"
 
 [dependencies]
+
+[dev-dependencies]
+criterion = "0.5.1"
