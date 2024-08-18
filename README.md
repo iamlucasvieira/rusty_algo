@@ -1,6 +1,7 @@
 # rusty_algo 🦀
 ![Build Status](https://github.com/iamlucasvieira/rusty_algo/actions/workflows/rust.yml/badge.svg)
-![GitHub License](https://img.shields.io/github/license/iamlucasvieira/rusty_algo)
+![GitHub License](https://img.shields.io/github/license/iamlucasvieira/rusty_algo?link=https%3A%2F%2Fgithub.com%2Fiamlucasvieira%2Frusty_algo%2Fblob%2Fmain%2FLICENSE)
+
 
 A Rust library implementing algorithms from the classic "Introduction to Algorithms" book.
 
