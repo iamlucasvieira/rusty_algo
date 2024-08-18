@@ -5,5 +5,13 @@ name = "rusty_algo"
 name = "rusty_algo"
 version = "0.1.0"
 edition = "2021"
+authors = ["Lucas Vieira dos Santos <lucas6eng@gmail.com>"]
+description = "Implementations of algorithms from 'Introduction to Algorithms' by Cormen et al."
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/iamlucasvieira/rusty_algo"
+keywords = ["algorithms", "data-structures", "rust"]
+categories = ["algorithms", "data-structures", "rust"]
+
 
 [dependencies]

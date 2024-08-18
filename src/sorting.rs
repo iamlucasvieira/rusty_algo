@@ -1,8 +1,36 @@
+/// # Sorting
+/// This module contains sorting algorithms.
+/// ## Example
+/// Using sorting algorithm method directly:
+/// ```rust
+/// use rusty_algo::sorting::Sortable;
+/// let mut arr = vec![3, 2, 1];
+/// arr.insertion_sort();
+/// assert_eq!(arr, vec![1, 2, 3]);
+/// ```
+///
+/// Using sorting algorithm enum:
+/// ```rust
+/// use rusty_algo::sorting::SortAlgorithm::InsertionSort;
+/// use rusty_algo::sorting::Sortable;
+/// let mut arr = vec![3, 2, 1];
+/// arr.sort(&InsertionSort);
+/// assert_eq!(arr, vec![1, 2, 3]);
+/// ```
+///
+/// ## Sorting algorithms
+/// - Insertion sort
+
+/// Sortable trait for sorting algorithms
 pub trait Sortable {
+    /// Sorts the vector in place using the specified algorithm
     fn sort(&mut self, algorithm: &SortAlgorithm);
+
+    /// Sorts the vector in place using the insertion sort algorithm
     fn insertion_sort(&mut self);
 }
 
+/// Implement Sortable for Vec<T> where T is an Ord
 impl<T: Ord> Sortable for Vec<T> {
     fn sort(&mut self, algorithm: &SortAlgorithm) {
         algorithm.sort(self);
@@ -12,17 +40,22 @@ impl<T: Ord> Sortable for Vec<T> {
         self.sort(&SortAlgorithm::InsertionSort);
     }
 }
+
+/// SortAlgorithm enum
 pub enum SortAlgorithm {
     InsertionSort,
 }
 
+/// Implement SortAlgorithm
 impl SortAlgorithm {
+    /// Sorts the array in place using the specified algorithm
     fn sort<T: Ord>(&self, arr: &mut [T]) {
         match &self {
             SortAlgorithm::InsertionSort => self.insertion_sort(arr),
         }
     }
 
+    /// Sorts the array in place using the insertion sort algorithm
     fn insertion_sort<T: Ord>(&self, arr: &mut [T]) {
         for i in 1..arr.len() {
             let mut j = i;
