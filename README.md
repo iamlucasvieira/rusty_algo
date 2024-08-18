@@ -23,7 +23,7 @@ Add the following to your `Cargo.toml` under `[dependencies]`:
 
 ```toml
 [dependencies]
-rusty_algo = "0.1.0"
+rusty_algo = "0.2.0"
 ```
 
 ## Algorithms Implemented
@@ -31,7 +31,7 @@ rusty_algo = "0.1.0"
 ### Sorting Algorithms
 
 -   [x] Insertion Sort
--   [ ] Merge Sort
+-   [x] Merge Sort
 -   [ ] Quicksort
 -   [ ] Heap Sort
 -   [ ] Counting Sort
