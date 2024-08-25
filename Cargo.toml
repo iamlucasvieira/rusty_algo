@@ -18,6 +18,7 @@ harness = false
 name = "bench"
 
 [dependencies]
+anyhow = "1.0.86"
 
 [dev-dependencies]
 criterion = "0.5.1"
